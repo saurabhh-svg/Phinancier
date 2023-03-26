@@ -4,6 +4,7 @@ import morgan from "morgan";
 import helmet from "helmet";
 import cors from "cors";
 import dotenv from "dotenv";
+import mongoose from "mongoose";
 
 // CONFIGURATIONS
 
@@ -17,6 +18,15 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
-console.log("Hello! Backend Running");
-
 // MONGOOSE SETUP
+
+const PORT = process.env.PORT || 9000;
+mongoose
+  .connect(process.env.MONGO_URL, {
+    useNewUrlParser: false,
+    useUnifiedTopology: true,
+  })
+  .then(async () => {
+    app.listen(PORT, () => console.log(`Server Port : ${PORT}`));
+  })
+  .catch((error) => console.log(`${error} did not connect`));
