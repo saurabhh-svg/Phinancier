@@ -7,8 +7,8 @@ import {
 
 export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BASE_URL }),
-  reducerPath: "main", //name for api calls
-  tagTypes: ["Kpis", "Products", "Transactions"], //to keep information
+  reducerPath: "main",
+  tagTypes: ["Kpis", "Products", "Transactions"],
   endpoints: (build) => ({
     getKpis: build.query<Array<GetKpisResponse>, void>({
       query: () => "kpi/kpis/",
@@ -19,7 +19,7 @@ export const api = createApi({
       providesTags: ["Products"],
     }),
     getTransactions: build.query<Array<GetTransactionsResponse>, void>({
-      query: () => "product/transactions/",
+      query: () => "transaction/transactions/",
       providesTags: ["Transactions"],
     }),
   }),
