@@ -41,9 +41,10 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port : ${PORT}`));
 
     //SEED DATA for the first Time
+
     // await mongoose.connection.db.dropDatabase();
-    //Product.insertMany(products);
-    //Product.insertMany(products);
-    //Transaction.insertMany(transactions);
+    // KPI.insertMany(kpis);
+    // Product.insertMany(products);
+    // Transaction.insertMany(transactions);
   })
   .catch((error) => console.log(`${error} did not connect`));
