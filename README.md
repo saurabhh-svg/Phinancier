@@ -8,6 +8,7 @@ A Finance Market revenue and profit Tracking app showing the predicted revenue f
 
 Here are some screeenshots of the final app.
 
-<img width="1424" alt="Screenshot 2023-04-04 at 11 10 36 PM" src="https://user-images.githubusercontent.com/82569167/229874576-d0e50ccc-e97b-41f7-8608-a4162d641362.png">
-<img width="1424" alt="Screenshot 2023-04-04 at 11 10 11 PM" src="https://user-images.githubusercontent.com/82569167/229874592-9d288f83-f1bf-4335-b22d-376694967b97.png">
-<img width="1424" alt="Screenshot 2023-04-04 at 11 10 36 PM" src="https://user-images.githubusercontent.com/82569167/229874616-7367aeac-8f14-461b-a981-afb4aad9653d.png">
+
+<img width="1424" alt="Screenshot 2023-04-04 at 11 10 11 PM" src="https://user-images.githubusercontent.com/82569167/229874817-ba1f2830-c58e-47f8-8b62-d0b19d34b442.png">
+<img width="1424" alt="Screenshot 2023-04-04 at 11 10 36 PM" src="https://user-images.githubusercontent.com/82569167/229874826-2b95fe41-31f8-4c68-ba0f-1d24c6dac0e5.png">
+<img width="1424" alt="Screenshot 2023-04-04 at 11 10 40 PM" src="https://user-images.githubusercontent.com/82569167/229874839-d67460fc-e02f-4a19-bd30-292e1d93fef5.png">
